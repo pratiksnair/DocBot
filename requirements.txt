@@ -26,7 +26,6 @@ grpcio
 h5py
 idna
 importlib-metadata
-Jinja
 joblib
 jsonpatch
 jsonpointer
