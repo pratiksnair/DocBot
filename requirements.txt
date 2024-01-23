@@ -32,7 +32,7 @@ jsonpatch==1.33
 jsonpointer==2.4
 jsonschema==4.20.0
 jsonschema-specifications==2023.11.2
-keras==2.15.0
+keras==2.11.0
 langchain==0.0.346
 langchain-core==0.0.10
 langsmith==0.0.69
