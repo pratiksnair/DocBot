@@ -3,6 +3,8 @@ import json  # Importing the JSON module for handling data in JavaScript Object 
 import pickle  # Importing the pickle module for serializing and deserializing Python objects
 import numpy as np  # Importing the NumPy library for efficient numerical operations
 import nltk  # Importing the Natural Language Toolkit (nltk) for various natural language processing tasks
+nltk.download('punkt')
+nltk.download('wordnet')
 
 from nltk.stem import WordNetLemmatizer  # Importing the WordNet lemmatizer from nltk for word normalization
 from keras.models import load_model  # Importing the load_model function from Keras for loading a pre-trained machine learning model
