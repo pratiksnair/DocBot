@@ -29,7 +29,7 @@ intents = json.loads(open('intents.json').read())
 # Load preprocessed words, classes, and the trained model
 words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
-model = load_model('chatbot_model.keras')
+model = load_model('chatbot_model.h5')
 
 # Define a function to clean up a sentence by tokenizing and lemmatizing
 def clean_up_sentence(sentence):
