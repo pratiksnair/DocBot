@@ -1,0 +1,114 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns":["hello","hi","hey","good day","what's up?"],
+    "responses":["hello!","Hey","What can i do for you?"]
+},
+
+{"tag": "goodbye",
+    "patterns":["see you later","goodbye","I am leaving","bye"],
+    "responses":["sad to see you go","have a great day","Goodbye"]
+},
+
+{"tag": "age",
+    "patterns":["what is your Age?","how old are you?","age?","how old?"],
+    "responses":["My Creator Pratik is 21 Years old","21 years old"]
+},
+
+{"tag": "name",
+    "patterns":["what is your name","what should i call you","who are you","can you tell me your name"],
+    "responses":["You can call me Neural","I am Neural","I am Pratik's assistant Neural"]
+},
+
+{
+    "tag":"common cold symptoms",
+    "patterns": ["I have what could I be suffering from Runny or stuffy nose,",
+    "I have Sore throat what could I be suffering from", 
+    "I have Cough what could I be suffering from", 
+    "I have Congestion what could I be suffering from",
+    "I have Slight body aches or a mild headache what could I be suffering from", 
+    "I have Sneezing what could I be suffering from",
+    "I have Low-grade fever what could I be suffering from", 
+    "I have Generally feeling unwell (malaise) what could I be suffering from"],
+    "responses":["It seems that you are suffering from common cold"]
+   },
+
+{
+    "tag":"fever symptoms",
+    "patterns":["I have sweating what could I be suffering from",
+    "I have Chills and shivering what could I be suffering from",
+    "I have Headache what could I be suffering from", 
+    "I have Muscle aches what could I be suffering from",
+    "I have Loss of appetite what could I be suffering from", 
+    "I have Irritability what could I be suffering from",
+    "I have Dehydration what could I be suffering from",
+    "I have General weakness what could I be suffering from"],
+    "responses":["It seems that you are suffering from fever"]
+   },
+
+   {
+    "tag":"Diabetes symptoms",
+    "patterns":["I have increased hunger what could I be suffering from ",
+    "I have increased thirst what could I be suffering from ",
+    "I have weight loss what could I be suffering from ",
+    "I have frequent urination what could I be suffering from ",
+    "I have blurry vision what could I be suffering from ",
+    "I have extreme fatigue what could I be suffering from "],
+    "responses":["It seems that you are suffering from Diabetes"]
+   },
+
+   {
+    "tag":"Depression symptoms",
+    "patterns":["I have what could I be suffering from Hopeless outlook",
+    "I have Lost interest what could I be suffering from ",
+    "I have Increased fatigue what could I be suffering from ",
+    "I have sleep problem what could I be suffering from ",
+    "I have Anxiety what could I be suffering from ",
+    "I have change in weight what could I be suffering from ",
+    "I have Looking at death what could I be suffering from "],
+    "responses":["It seem that you are suffering from depression"]
+   },
+
+   {
+    "tag":"Asthma symptoms",
+    "patterns":["I have what could I be suffering from coughing",
+    "i have tightness in the chest what could I be suffering from ",
+    "i have shortness of breath what could I be suffering from ",
+    "i have difficulty talking what could I be suffering from ",
+    "i have panic what could I be suffering from ",
+    "i have fatigue what could I be suffering from "],
+    "responses":["It seem that you are suffering from Asthma"]
+   },
+
+   {
+    "tag":"common cold prevention",
+    "patterns":["What medicines can I buy to help me with my common cold?","tell me some prevention method from common cold","What should I eat or drink if i am suffering from common cold?","How can I keep from getting a cold or the flu?"],
+    "responses":["medicines you can consume : Dextromethorphan,Decongestant,Diphenhydramine,Crocin Cold & Flu Max, preventions that you must follow :Wash your hands,Avoid touching your face,Clean frequently used surfaces,Use hand sanitizers,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"]
+   },
+
+   {
+    "tag":"fever prevention",
+    "patterns":["What medicines can I buy to help me with my fever?","tell me some prevention method from fever","What should I eat or drink if i am suffering from fever?","How can I keep from getting a fever?"],
+    "responses":["medicines you can consume : acetaminophen ,ibuprofen,aspirin,Crocin Cold & Flu Max, prevention that you must follow :Wash your hands,Cover your mouth when you cough and your nose when you sneeze,Clean frequently used surfaces,Avoid sharing cups, glasses, and eating utensils with other people.,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"]
+   },
+
+   {
+    "tag":"diabetes prevention",
+    "patterns":["What medicines can I buy to help me with my diabetes?","tell me some prevention method from diabetes","What should I eat or drink if i am suffering from diabetes?","How can I keep from getting diabetes?"],
+    "responses":["medicines you can consume : Insulin ,Amylinomimetic drug,Dipeptidyl peptidase-4 (DPP-4) inhibitor, prevention that you must follow :Cut Sugar and Refined Carbs From Your Diet,Work Out Regularly,Drink Water as Your Primary Beverage,Lose Weight If You’re Overweight or Obese,Quit Smoking, Follow a Very-Low-Carb Diet,Watch Portion Sizes,SUGGESTED FOODS ARE:Leafy greens,Avocados,Eggs"]
+   },
+   {
+    "tag":"depression prevention",
+    "patterns":["What medicines can I buy to help me with my depression?","tell me some prevention method from depression","What should I eat or drink if i am suffering from depression?","How can I keep from getting depression?"],
+    "responses":["medicines you can consume :  brexpiprazole, quetiapine,olanzapine, prevention that you must follow :Exercise regularly,Cut back on social media time,Drink Water as Your Primary Beverage,Build strong relationships,Minimize your daily choices, Follow a Very-Low-Carb Diet,SUGGESTED FOODS ARE:Get Enough Vitamin D,Include Omega-3 Fatty Acids,Beans and legumes"]
+   },
+   {
+    "tag":"asthma prevention",
+    "patterns":["What medicines can I buy to help me with my asthma?","tell me some prevention method from asthma","What should I eat or drink if i am suffering from asthma?","How can I keep from getting asthma?"],
+    "responses":["medicines you can consume : epinephrine,anticholinergic,Proair HFA, prevention that you must follow : Identify Asthma Triggers, Stay Away From Allergens,Avoid Smoke of Any Type,SUGGESTED FOODS ARE:carrots,juice,eggs,broccoli,cantaloupe,milk"]
+   },
+   {
+    "tag":"Consultation",
+    "patterns": ["who should i contact for consultation?","is there any doctor available?","can you give me some suggestions for doctor consultations?","can you set up a meeting with a doctor for consultation?","is there any doctor available for consultation"],
+    "responses":["You can contact various doctors here for any kind of consultation: 1. https://www.1mg.com/online-doctor-consultation, 2. https://www.tatahealth.com/online-doctor-consultation/general-physician, 3. https://www.doconline.com/, or you can pay a visit to your local area doctor or family doctor."]
+   }
+]}
