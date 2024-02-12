@@ -109,7 +109,7 @@ def get_response(intents_list, intents_json):
 def main():
     # Set up Streamlit page configuration with a title and icon
     st.set_page_config(
-        page_title="DocBot: One-Step Medical Consultation",
+        page_title="TocBot: One-Step Medical Consultation",
         page_icon="📜",
     )
 
