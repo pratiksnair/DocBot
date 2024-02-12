@@ -114,7 +114,7 @@ def main():
     )
 
     # Set the title of the page
-    st.title("🤖DocBot")
+    st.title("🤖TocBot")
 
     # Initialize session state to keep track of whether the greeting has been displayed
     if "greeting_displayed" not in st.session_state:
