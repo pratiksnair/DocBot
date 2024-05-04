@@ -5,7 +5,7 @@
 },
 
 {"tag": "goodbye",
-    "patterns":["see you later","goodbye","I am leaving","bye"],
+    "patterns":["see you later","goodbye","I am leaving","bye","talk to you later"],
     "responses":["sad to see you go","have a great day","Goodbye"]
 },
 
