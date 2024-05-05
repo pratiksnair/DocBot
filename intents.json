@@ -46,29 +46,29 @@
             "responses": ["It seems that you are suffering from asthma."]
         },
         {
-            "tag": "common cold medicine",
-            "patterns": ["What medicines should I take for the common cold?", "What are the recommended medicines for the common cold?", "Which medicines can help with the common cold?"],
-            "responses": ["For the common cold, you can take Dextromethorphan, Decongestant, Diphenhydramine, Crocin Cold & Flu Max."]
+            "tag": "common cold prevention",
+            "patterns": ["What medicines can I buy for the common cold?", "Tell me some prevention methods for the common cold.", "What should I eat or drink if I have a common cold?", "How can I prevent getting a cold or the flu?"],
+            "responses": ["Medicines you can consume: Dextromethorphan, Decongestant, Diphenhydramine, Crocin Cold & Flu Max. Preventive measures: Wash your hands, avoid touching your face, clean frequently used surfaces, use hand sanitizers. Suggested foods: Garlic, Vitamin C-containing fruits, Leafy greens, Broccoli, Oatmeal, Spices, Chicken Soup."]
         },
         {
-            "tag": "fever medicine",
-            "patterns": ["What medicines should I take for fever?", "What are the recommended medicines for fever?", "Which medicines can help with fever?"],
-            "responses": ["For fever, you can take Acetaminophen, Ibuprofen, Aspirin, Crocin Cold & Flu Max."]
+            "tag": "fever prevention",
+            "patterns": ["What medicines can I buy for fever?", "Tell me some prevention methods for fever.", "What should I eat or drink if I have a fever?", "How can I prevent getting a fever?"],
+            "responses": ["Medicines you can consume: Acetaminophen, Ibuprofen, Aspirin, Crocin Cold & Flu Max. Preventive measures: Wash your hands, cover your mouth when you cough and your nose when you sneeze, clean frequently used surfaces, avoid sharing cups, glasses, and eating utensils with other people. Suggested foods: Garlic, Vitamin C-containing fruits, Leafy greens, Broccoli, Oatmeal, Spices, Chicken Soup."]
         },
         {
-            "tag": "diabetes medicine",
-            "patterns": ["What medicines should I take for diabetes?", "What are the recommended medicines for diabetes?", "Which medicines can help with diabetes?"],
-            "responses": ["For diabetes, you can take Insulin, Amylinomimetic drug, Dipeptidyl peptidase-4 (DPP-4) inhibitor."]
+            "tag": "diabetes prevention",
+            "patterns": ["What medicines can I buy for diabetes?", "Tell me some prevention methods for diabetes.", "What should I eat or drink if I have diabetes?", "How can I prevent getting diabetes?"],
+            "responses": ["Medicines you can consume: Insulin, Amylinomimetic drug, Dipeptidyl peptidase-4 (DPP-4) inhibitor. Preventive measures: Cut sugar and refined carbs from your diet, work out regularly, drink water as your primary beverage, lose weight if you’re overweight or obese, quit smoking. Suggested foods: Leafy greens, Avocados, Eggs."]
         },
         {
-            "tag": "depression medicine",
-            "patterns": ["What medicines should I take for depression?", "What are the recommended medicines for depression?", "Which medicines can help with depression?"],
-            "responses": ["For depression, you can take Brexpiprazole, Quetiapine, Olanzapine."]
+            "tag": "depression prevention",
+            "patterns": ["What medicines can I buy for depression?", "Tell me some prevention methods for depression.", "What should I eat or drink if I have depression?", "How can I prevent getting depression?"],
+            "responses": ["Medicines you can consume: Brexpiprazole, Quetiapine, Olanzapine. Preventive measures: Exercise regularly, cut back on social media time, drink water as your primary beverage, build strong relationships, minimize your daily choices. Suggested foods: Get enough Vitamin D, include Omega-3 Fatty Acids, beans and legumes."]
         },
         {
-            "tag": "asthma medicine",
-            "patterns": ["What medicines should I take for asthma?", "What are the recommended medicines for asthma?", "Which medicines can help with asthma?"],
-            "responses": ["For asthma, you can take Epinephrine, Anticholinergic, Proair HFA."]
+            "tag": "asthma prevention",
+            "patterns": ["What medicines can I buy for asthma?", "Tell me some prevention methods for asthma.", "What should I eat or drink if I have asthma?", "How can I prevent getting asthma?"],
+            "responses": ["Medicines you can consume: Epinephrine, Anticholinergic, Proair HFA. Preventive measures: Identify asthma triggers, stay away from allergens, avoid smoke of any type. Suggested foods: Carrots, juice, eggs, broccoli, cantaloupe, milk."]
         },
         {
             "tag": "consultation",
