@@ -75,5 +75,25 @@
             "patterns": ["Who should I contact for consultation?", "Is there any doctor available?", "Can you give me some suggestions for doctor consultations?", "Can you set up a meeting with a doctor for consultation?", "Is there any doctor available for consultation?"],
             "responses": ["You can contact various doctors for consultation: 1. [1mg Online Doctor Consultation](https://www.1mg.com/online-doctor-consultation), 2. [Tata Health General Physician Consultation](https://www.tatahealth.com/online-doctor-consultation/general-physician), 3. [DocOnline](https://www.doconline.com/). Alternatively, you can visit your local doctor or family physician."]
         }
+        {
+            "tag": "exercise",
+            "patterns": ["What exercises can help with common cold?", "How can I stay active during a fever?", "What are some exercises for diabetes management?", "What type of exercise is good for depression?", "Can exercise help with asthma?"],
+            "responses": ["For common cold: Gentle activities like walking. For fever: Rest is important, but light stretching can help if you feel up to it. For diabetes: Aerobic exercises like walking or cycling. For depression: Regular exercise like jogging or yoga. For asthma: Breathing exercises and moderate aerobic activities."]
+        },
+        {
+            "tag": "hydration",
+            "patterns": ["How much water should I drink when I have a cold?", "What is the best way to stay hydrated during a fever?", "How does hydration affect diabetes?", "Can drinking water help with depression?", "How important is hydration for asthma?"],
+            "responses": ["For cold: Drink plenty of fluids, including water, herbal teas, and broths. For fever: Stay hydrated with water and clear fluids. For diabetes: Monitor your fluid intake and opt for water. For depression: Proper hydration can improve mood. For asthma: Keep hydrated to help with mucus clearance."]
+        },
+        {
+            "tag": "diet",
+            "patterns": ["What foods should I eat for common cold?", "What diet is recommended during a fever?", "What is a good diet for managing diabetes?", "What are some recommended foods for someone with depression?", "Can diet affect asthma symptoms?"],
+            "responses": ["For cold: Eat nutrient-rich foods like fruits, vegetables, and soups. For fever: Light, easily digestible foods like crackers and broth. For diabetes: Focus on balanced meals with whole grains, lean proteins, and healthy fats. For depression: Foods rich in Omega-3 fatty acids, vitamins, and minerals. For asthma: Avoid allergens and focus on anti-inflammatory foods."]
+        },
+        {
+            "tag": "emergency",
+            "patterns": ["What should I do in case of an asthma attack?", "How to handle a high fever in children?", "What are the signs of a diabetes emergency?", "What to do if someone shows severe depression symptoms?", "What are the immediate actions for severe cold symptoms?"],
+            "responses": ["For asthma attack: Use your inhaler, seek emergency medical help if necessary. For high fever: Keep the child cool and hydrated, consult a doctor. For diabetes emergency: Monitor blood sugar levels, use insulin if prescribed. For severe depression: Seek immediate professional help or contact a crisis hotline. For severe cold symptoms: Rest, hydrate, and seek medical advice if symptoms worsen."]
+        }
     ]
 }
